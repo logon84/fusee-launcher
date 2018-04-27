@@ -31,7 +31,7 @@ import ctypes
 import argparse
 import platform
 
-#specify backend path (ENTWARE)
+#specify USB backend path (ENTWARE)
 backend = usb.backend.libusb1.get_backend(find_library=lambda x: "/opt/lib/libusb-1.0.so")
 
 # specify the locations of important load components
